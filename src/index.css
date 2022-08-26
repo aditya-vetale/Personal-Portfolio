@@ -15,7 +15,11 @@ code {
     monospace;
 }
 
-div {
+div > #about,
+#experience,
+#projects,
+#footer,
+#contact {
   border: solid 1px;
   height: 50vh;
 }
